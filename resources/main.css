@@ -1,0 +1,21 @@
+
+* {font-family: Monaco, Menlo, Consolas, "Courier New", Monospace, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", STXihei, Heiti, sans-serif, FontAwesome;
+font-size: 15;}
+a:link {text-decoration:none}
+a:visited {text-decoration:none}
+a:active {text-decoration:none}
+a:hover {text-decoration:none; color:#990000}
+body {background-color:#ffffff}
+
+.active {font-weight:bold}
+.inactive {color:gray}
+
+.header {font-weight:bold; color:#990000}
+.section {margin:10px; max-width:1024px}
+.mainsection {margin:10px; max-width:1224px}
+
+td {padding:7px}
+td div {padding:7px}
+
+li {margin:6px}
+ul {list-style: square}
