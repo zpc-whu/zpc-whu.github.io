@@ -52,7 +52,6 @@ which.style.display="block"
 <ul>
 I'm a Ph.D. candidate at Wuhan University, advised by Professor <a href="http://rsgis.whu.edu.cn/index.php?m=content&c=index&a=show&catid=127&id=1717">Qingwu Hu</a>. My research interest is on deep learning, computer vision and 3D. In particular, I work on 3D deep learning for semantic understanding and geometry inference. I've also worked on connecting 2D images and 3D shapes, to support knowledge transportations between these two modalities. <br/><br/>
 
-Prior to joining Stanford in 2013, I got my bachelor degree in Electronic Engineering from <a href="http://www.tsinghua.edu.cn">Tsinghua University</a>. During my undergraduate, I was an exchange student at <a href="http://www.aalto.fi/en/">Aalto University</a>, Finland, and was a research intern at <a href="http://research.microsoft.com/en-us/labs/asia/">Microsoft Research Asia</a>, advised by <a href="http://research.microsoft.com/en-us/um/people/moscitho/">Thomas Moscibroda</a>. During 2016 summer, I was a software engineer intern with Google's self-driving car team.
 </ul>
 </div>
 <br>
@@ -60,7 +59,9 @@ Prior to joining Stanford in 2013, I got my bachelor degree in Electronic Engine
 <h3>News</h3>
 <div class="section">
 <ul>
-<li><b style="color: green; background-color: #ffff42">NEW</b> Our Frustum PointNets work is accepted to CVPR 2018! Code release coming soon.</li>
+<li><b style="color: green; background-color: #ffff42">NEW</b> Our team won the grand prize of The 9th National University GIS Application Skills Competition.</li>
+ 
+<!--
 <li>December, 2017. will be going to NIPS 2017 at Long Beach to present our work PointNet++ (hierarchical deep feature learning on point sets). A first round of code and data release of the project can be found in our GitHub repo: <a href="https://github.com/charlesq34/pointnet2">pointnet2</a></li>
 <li>July 2017. I have two papers (PointNet as <b>oral</b> and Shape Completion as <b>spotlight oral</b>) on 3D deep learning accepted to CVPR 2017! Our initial release of code and data for PointNet can be found on GitHub <a href="https://github.com/charlesq34/pointnet">pointnet</a></li>
 <li>July 2017. We are going to organize the <a href="http://3ddl.stanford.edu">3D Deep Learning</a> tutorial at CVPR 2017 in Honolulu, Hawaii.</li>
@@ -69,6 +70,7 @@ Prior to joining Stanford in 2013, I got my bachelor degree in Electronic Engine
 <li>September, 2015. "Render for CNN" work accepted in ICCV15 for <b>oral presentation</b>. Our <a href="http://github.com/shapenet/RenderForCNN">code and model</a> have been released.</li>
 <li>August, 2015. "Joint Embedding" work accepted in SIGGRAPH Asia 15 for. Check out our <a href="http://geometry.stanford.edu/projects/jointembedding/">project page</a>.</li>
 <li>June, 2015. I will be attending CVPR 2015 at Boston, June 7-12. See you there!</li>
+-->
 </ul>
 </div>
 <br>
@@ -125,133 +127,6 @@ Prior to joining Stanford in 2013, I got my bachelor degree in Electronic Engine
 <tr><td><br></td></tr>
 
 
-<!-- POINTNET -->
-<tr>
-<td width="25%" valign="top"><p><img src="papers/pointnet.png" width="250" alt="" style="border-style: none" align="top"></p></td>
-<td width="75%" valign="top"><p>
-<b><a href="https://arxiv.org/abs/1612.00593">PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation</a></b>, <font color="#FF0000">Oral Presentation</font>, <i>CVPR 2017</i><br>
-<b>Charles R. Qi</b><sup>*</sup>, Hao Su<sup>*</sup>, Kaichun Mo, and Leonidas J. Guibas (<sup>*</sup>: equal contribution)
-<p>Proposed novel neural networks to directly consume an unordered point cloud as input, without converting to other 3D representations such as voxel grids first. Rich theoretical and empirical analyses are provided.</p>
-<a href="https://arxiv.org/abs/1612.00593">paper</a> / <a href="javascript:hideshow(document.getElementById('PointNet'))">bibtex</a> / <a href="https://github.com/charlesq34/pointnet">code</a> / <a href="http://stanford.edu/~rqi/pointnet/">website</a> / <a href="https://www.youtube.com/watch?v=Cge-hot0Oc0">presentation video</a>
-<pre><p id="PointNet" style="font:18px; display: none">
-@article{qi2017pointnet,
-  title={PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation},
-  author={Qi, Charles R and Su, Hao and Mo, Kaichun and Guibas, Leonidas J},
-  journal={Proc. Computer Vision and Pattern Recognition (CVPR), IEEE},
-  year={2017}
-}
-<p></pre>
-</p></td>
-</tr>
-
-<tr><td><br></td></tr>
-
-<!-- SHAPE_COMPLETION -->
-<tr>
-<td width="25%" valign="top"><p><img src="papers/shape_completion.png" width="250" alt="" style="border-style: none" align="top"></p></td>
-<td width="75%" valign="top"><p>
-<b><a href="https://arxiv.org/abs/1612.00101">Shape Completion using 3D-Encoder-Predictor CNNs and Shape Synthesis</a></b>, <font color="#FF0000">Spotlight Presentation</font>, <i>CVPR 2017</i><br>
-Angela Dai, <b>Charles R. Qi</b>, Matthias Niessner
-<p>A data-driven approach to complete partial 3D shapes through a combination of volumetric deep neural networks and 3D shape synthesis.</p>
-<a href="https://arxiv.org/pdf/1612.00101.pdf">paper</a> / <a href="javascript:hideshow(document.getElementById('ShapeCompletion'))">bibtex</a> / <a href="http://graphics.stanford.edu/projects/cnncomplete/">website (code & data available)</a>
-<pre><p id="ShapeCompletion" style="font:18px; display: none">
-@article{dai2017complete,
-  title={Shape Completion using 3D-Encoder-Predictor CNNs and Shape Synthesis},
-  author={Dai, Angela and Qi, Charles Ruizhongtai and Nie{\ss}ner, Matthias},
-  journal={Proc. Computer Vision and Pattern Recognition (CVPR), IEEE},
-  year={2017}
-}
-<p></pre>
-</p></td>
-</tr>
-
-<tr><td><br></td></tr>
-
-<!-- VOLUMETRIC CNN -->
-<tr>
-<td width="25%" valign="top"><p><img src="papers/volumetric_cnn.jpg" width="250" alt="" style="border-style: none" align="top"></p></td>
-<td width="75%" valign="top"><p>
-<b><a href="https://arxiv.org/abs/1604.03265">Volumetric and Multi-View CNNs for Object Classification on 3D Data</a></b>, <font color="#FF0000">Spotlight Presentation</font>, <i>CVPR 2016</i><br>
-<b>Charles R. Qi</b><sup>*</sup>, Hao Su<sup>*</sup>, Matthias Niessner, Angela Dai, Mengyuan Yan, and Leonidas J. Guibas (<sup>*</sup>: equal contribution)
-<p>Novel architectures for 3D CNNs that take volumetric or multi-view representations as input.</p>
-<a href="https://arxiv.org/abs/1604.03265">paper</a> / <a href="javascript:hideshow(document.getElementById('VolumetricCNN'))">bibtex</a> / <a href="https://github.com/charlesq34/3dcnn.torch">code</a> / <a href="http://graphics.stanford.edu/projects/3dcnn/">website</a>  / <a href="papers/volumetric_cnn_cvpr16_supp.pdf">supp</a> / <a href="https://www.youtube.com/watch?v=bE7jzHJiQWw">presentation video</a>
-<pre><p id="VolumetricCNN" style="font:18px; display: none">
-@inproceedings{qi2016volumetric,
-  author = {Charles Ruizhongtai Qi and Hao Su and Matthias Nie{\ss}ner and 
-    Angela Dai and Mengyuan Yan and Leonidas Guibas},
-  title = {Volumetric and Multi-View CNNs for Object Classification on 3D Data},
-  booktitle = {Proc. Computer Vision and Pattern Recognition (CVPR), IEEE},
-  year = {2016}
-}
-<p></pre>
-</p></td>
-</tr>
-
-<tr><td><br></td></tr>
-
-<!-- FPNN -->
-<tr>
-<td width="25%" valign="top"><p><img src="papers/fpnn.png" width="250" alt="" style="border-style: none" align="top"></p></td>
-<td width="75%" valign="top"><p>
-<b><a href="https://arxiv.org/abs/1605.06240">FPNN: Field Probing Neural Networks for 3D Data</a></b>, <i>NIPS 2016</i><br>
-Yangyan Li, Soeren Pirk, Hao Su, <b>Charles R. Qi</b>, and Leonidas J. Guibas
-<p>A very efficient 3D deep learning method for volumetric data processing that takes advantage of data sparsity in 3D fields.</p>
-<a href="papers/fpnn.pdf">paper</a> / <a href="javascript:hideshow(document.getElementById('FPNN'))">bibtex</a> / <a href="https://github.com/yangyanli/FPNN">code</a> / <a href="http://yangyanli.github.io/FPNN/">website</a>
-<pre><p id="FPNN" style="font:18px; display: none">
-@article{li2016fpnn,
-  title={FPNN: Field Probing Neural Networks for 3D Data},
-  author={Li, Yangyan and Pirk, Soeren and Su, Hao and Qi, Charles R and Guibas, Leonidas J},
-  journal={arXiv preprint arXiv:1605.06240},
-  year={2016}
-}
-<p></pre>
-</p></td>
-</tr>
-
-<tr><td><br></td></tr>
-
-
-<!-- DEEP EMBEDDING -->
-<tr>
-<td width="25%" valign="top"><p><img src="papers/joint_embedding.jpg" width="250" alt="" style="border-style: none" align="top"></p></td>
-<td width="75%" valign="top"><p>
-<b><a href="https://shapenet.cs.stanford.edu/projects/JointEmbedding/">Joint Embeddings of Shapes and Images via CNN Image Purification</a></b>, <i>SIGGRAPH Asia 2015</i><br>
-Yangyan Li<sup>*</sup>, Hao Su<sup>*</sup>, <b>Charles R. Qi</b>, Noa Fish, Daniel Cohen-Or, and Leonidas J. Guibas (<sup>*</sup>: equal contribution)
-<p>Cross-modality learning of 3D shapes and 2D images by neural networks. A joint embedding space that is sensitive to 3D geometry difference but agnostic to other nuisances is constructed.</p>
-<a href="https://shapenet.cs.stanford.edu/projects/JointEmbedding/JointEmbedding.pdf">paper</a> / <a href="javascript:hideshow(document.getElementById('JointEmbeddingBib'))">bibtex</a> / <a href="http://shapenet.github.io/JointEmbedding/">code</a> / <a href="https://shapenet.cs.stanford.edu/projects/JointEmbedding/">website</a> / <a href="https://shapenet.cs.stanford.edu/shapenet_brain/app_joint_embedding/">live demo</a>
-<pre><p id="JointEmbeddingBib" style="font:18px; display: none">
-@article{li2015jointembedding,
-    Author = {Li, Yangyan and Su, Hao and Qi, Charles Ruizhongtai and Fish, Noa
-        and Cohen-Or, Daniel and Guibas, Leonidas J.},
-    Title = {Joint Embeddings of Shapes and Images via CNN Image Purification},
-    Journal = {ACM Trans. Graph.},
-    Year = {2015}
-}
-<p></pre>
-</p></td>
-</tr>
-
-<tr><td><br></td></tr>
-
-<!-- VIEWPOINT -->
-<tr>
-<td width="25%" valign="top"><p><img src="papers/render_for_cnn.jpg" width="250" alt=""></p></td>
-<td width="75%" valign="top">
-<p>
-<b><a href="papers/render_for_cnn_iccv15.pdf">Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views</a></b>, <font color="#FF0000">Oral Presentation</font>, <i>ICCV 2015</i><br>
-Hao Su<sup>*</sup>, <b>Charles R. Qi</b><sup>*</sup>, Yangyan Li, Leonidas J. Guibas (<sup>*</sup>equal contribution)
-<p>Pioneering work that shows large-scale synthetic data rendered from virtual world may greatly benefit deep learning to work in real world. Deliver a state-of-the-art viewpoint estimator.</p>
-<a href="https://shapenet.cs.stanford.edu/projects/RenderForCNN/resources/RenderForCNN.pdf">paper</a> / <a href="javascript:hideshow(document.getElementById('RenderForCNNBib'))">bibtex</a> / <a href="https://github.com/ShapeNet/RenderForCNN">code</a> / <a href="https://shapenet.cs.stanford.edu/projects/RenderForCNN/">website</a> / <a href="http://videolectures.net/iccv2015_su_qi_viewpoint_estimation/">presentation video</a>
-<pre><p id="RenderForCNNBib" style="font:18px; display: none">
-@InProceedings{Su_2015_ICCV,
-    Title={Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views},
-    Author={Su, Hao and Qi, Charles R. and Li, Yangyan and Guibas, Leonidas J.},
-    Booktitle={The IEEE International Conference on Computer Vision (ICCV)},
-    month = {December},
-    Year= {2015}
-}<p></pre>
-</p></td>
-</tr>
 </table>
 
 </ul>
@@ -262,14 +137,11 @@ Hao Su<sup>*</sup>, <b>Charles R. Qi</b><sup>*</sup>, Yangyan Li, Leonidas J. Gu
 <h3>Education/Experiences</h3>
 <div class="section">
 <ul>
-<li>2013.9 - Present: Ph.D. student at Stanford University</li>
-<li>2013.9 - 2016.3: M.S. in Electrical Engineering, Stanford University</li>
-<li>2009.9 - 2013.7: B.Eng from Tsinghua University</li>
-<li>2011.9 - 2012.1: Exchange student at Aalto University (previously as Helsinki University of Technology)</li>
+<li>2020.7 - Present: Laboratory Technician at School of Remote Sensing and Information Engineering, Wuhan University</li>
 </ul>
 <ul>
-<li>2016.6 - 2016.9: Software engineer intern at Google[x] (self-driving car team)</li>
-<li>2012.11 - 2013.5: Research intern at Microsoft Research Asia</li>
+<li>2015.9 - 2020.6: Eng. D from Wuhan University</li>
+<li>2011.9 - 2015.6: B.Eng from Wuhan University</li>
 </ul>
 </div>
 <br>
@@ -279,12 +151,12 @@ Hao Su<sup>*</sup>, <b>Charles R. Qi</b><sup>*</sup>, Yangyan Li, Leonidas J. Gu
 <div class="section">
 <ul>
 <li>
-Organizer and invited speaker for <a href='http://3ddl.stanford.edu'>3D Deep Learning Tutorial</a> at CVPR 17, Honolulu.
+<a href=''>Practice of General Surveying</a>.
 <li>
-Teaching Assistant. Winter 2014-15: <a href="http://web.stanford.edu/class/ee264/">Digital Signal Processing (EE264)</a>
+<a href="">Practice of GIS</a>
 <ul>
 <li>
-Our teaching experience has been summarized into a paper: <b><a href="papers/ee264_spw15.pdf">Teaching Digital Signal Processing with Stanford's Lab-in-a-Box</a></b>, 2015 IEEE Signal Processing and Signal Processing Education Workshop.
+Our teaching experience has been summarized into a paper: , .
 </li>
 </ul>
 </li>
@@ -293,5 +165,5 @@ Our teaching experience has been summarized into a paper: <b><a href="papers/ee2
 
 
 <hr/>
-<div id="footer" style="font-size:10"> Pengcheng Zhao <i>Last updated: August, 2017</i></div>
+<div id="footer" style="font-size:10"> Pengcheng Zhao <i>Last updated: November, 2020</i></div>
 </body>
